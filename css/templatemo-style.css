@@ -126,6 +126,7 @@ small {
 
 .nav-link {
   font-size: 1.2rem;
+  text-decoration:underline
 }
 
 .nav-item .tm-nav-link-highlight {
@@ -365,9 +366,11 @@ p {
 }
 
 .tm-about-box {
-  padding: 25px;
-  max-width: 360px;
-  margin-bottom: 30px;
+  padding: 10px 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .tm-about-title-hr {
@@ -475,9 +478,11 @@ p {
 }
 
 .tm-services-detail-box {
-  padding: 80px 70px;
+  padding: 30px 30px;
   margin-top: 22px;
   margin-bottom: 41px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 #tmServices .tabs {
@@ -570,6 +575,7 @@ p {
 .tm-testimonials-page-title {
   padding-bottom: 0;
   margin-bottom: 20px;
+  text-decoration:underline
 }
 
 .tm-testimonials-parallax-header {
@@ -727,9 +733,9 @@ p {
 
  .tm-about-box,
  .tm-app-feature-box {
-   margin-left: auto;
-   margin-right: auto;
-   max-width: 600px;
+   margin-left: 50;
+   margin-right: 50;
+   max-width: 200px;
  }
 
  .tm-tabs-container {
