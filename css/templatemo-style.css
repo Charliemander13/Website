@@ -28,7 +28,7 @@ body {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   font-size: 18px;
   font-weight: 400;
-  color: #6b6b6b;
+  color: #191919;
   overflow-x: hidden;
 }
 
@@ -51,7 +51,7 @@ small {
 }
 
 .parallax-window {
-  min-height: 1100px;
+  min-height: 500px;
   background: transparent;
 }
 
@@ -61,8 +61,9 @@ small {
 
 .tm-brand-row {
   align-items: center;
-  padding-top: 40px;
-  padding-bottom: 28px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  color: #000000;
 }
 
 .tm-brand-container {
@@ -79,7 +80,7 @@ small {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #333436;
+  background-color: #191919;
   color: white;
   border-radius: 50%;
   margin-right: 25px;
@@ -87,7 +88,7 @@ small {
 
 .tm-brand-name {
   font-size: 2.3rem;
-  color: #333333;
+  color: #191919;
 }
 
 /* Nav */
@@ -110,7 +111,7 @@ small {
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .show > .nav-link {
-  color: #666768;
+  color: #191919;
 }
 
 .navbar-light .navbar-nav .nav-item.green-highlight.active > .nav-link, 
@@ -144,13 +145,13 @@ small {
 
 .nav-item.active .nav-link,
 .nav-item:hover .nav-link {
-  border-top-color: #666768;
+  border-top-color: #191919;
 }
 
 .tm-nav-link-highlight {
   width: 16px;
   height: 16px;
-  background-color: #666768;
+  background-color: #191919;
   position: absolute;
   top: -8px;
   left: calc(50% - 8px);
@@ -212,7 +213,7 @@ small {
 .btn-primary {
   background-color: white;
   border: 0;  
-  color: #3E3F40;
+  color: #191919;
 }
 
 .btn-primary:hover,
@@ -221,7 +222,7 @@ small {
 .btn-primary:not(:disabled):not(.disabled).active, 
 .btn-primary:not(:disabled):not(.disabled):active, 
 .show>.btn-primary.dropdown-toggle {
-  background-color: #495057;
+  background-color: #191919;
   outline: none;
   border: none;
 }
@@ -253,7 +254,7 @@ small {
 .tm-feature-icon-container {
   width: 110px;
   height: 110px;
-  border: 1px solid #3E3F40;
+  border: 1px solid #191919;
   border-radius: 50%;  
   display: flex;
   align-items: center;
@@ -357,6 +358,8 @@ p {
 /* About Page */
 #tmAbout {
   padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .tm-about-page-title {
@@ -449,7 +452,7 @@ p {
 }
 
 .tm-app-feature-description-box {
-  color: #2C3030;
+  color: #191919;
 }
 
 .tm-app-feature-title {
