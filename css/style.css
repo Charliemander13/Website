@@ -773,10 +773,9 @@ h1, h2, h3, h4, h5, h6, figure {
   display: block;
   width: 100%;
   background-size: contain;
-  background-position: bottom;
+  background-position: center;
   background-repeat: no-repeat;
   position: relative;
-  height: 200px;
 }
 @media screen and (max-width: 768px) {
   .fh5co-blog .blog-bg {
