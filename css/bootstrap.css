@@ -868,6 +868,7 @@ pre code {
 .container {
   margin-right: auto;
   margin-left: auto;
+  margin-bottom: 2em;
 }
 .container:before, .container:after {
   content: " ";

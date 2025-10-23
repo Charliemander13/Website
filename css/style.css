@@ -11,7 +11,7 @@
 *
 * ======================================================= */
 body {
-  font-family: "Inconsolata", Arial, sans-serif;
+  font-family: "Barlow", Arial, sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.7;
@@ -88,7 +88,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background: #fff;
 }
 .fh5co-nav .top-menu {
-  padding: 28px 0;
+  padding: 25px 0px 0px 0px;
 }
 .fh5co-nav #fh5co-logo {
   font-size: 32px;
@@ -974,6 +974,12 @@ h1, h2, h3, h4, h5, h6, figure {
   background-size: cover;
 
 }
+.fh5co-team figure2 img {
+  width: 100%;
+  border: 0px solid #fff;
+  background-size: cover;
+
+}
 .fh5co-team > div {
   padding: 30px 30px 0 30px;
 }
@@ -1520,6 +1526,7 @@ input[type="text"] {
 
 .js .animate-box {
   opacity: 0;
+  object-fit: contain;
 }
 
 /*# sourceMappingURL=style.css.map */
